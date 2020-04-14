@@ -1,0 +1,61 @@
+{
+  "name": "cheat-sheets",
+  "version": "1.0.391",
+  "author": "Scott Spence <spences10apps@gmail.com>(https://scottspence.me/)",
+  "license": "MIT",
+  "description": "Cheat sheets",
+  "scripts": {
+    "clean": "rm -rf .cache/ && rm -rf public/",
+    "build": "gatsby build",
+    "dev": "gatsby develop -p 8488 -o",
+    "format": "pretty-quick"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "pretty-quick --staged"
+    }
+  },
+  "dependencies": {
+    "@mdx-js/mdx": "1.5.8",
+    "@mdx-js/react": "1.5.8",
+    "babel-plugin-styled-components": "1.10.7",
+    "gatsby": "2.20.18",
+    "gatsby-plugin-fathom": "1.1.1",
+    "gatsby-plugin-google-fonts": "1.0.1",
+    "gatsby-plugin-manifest": "2.3.3",
+    "gatsby-plugin-mdx": "1.1.7",
+    "gatsby-plugin-offline": "3.1.2",
+    "gatsby-plugin-react-helmet": "3.2.2",
+    "gatsby-plugin-robots-txt": "1.5.0",
+    "gatsby-plugin-sitemap": "2.3.1",
+    "gatsby-plugin-styled-components": "3.2.1",
+    "gatsby-plugin-zeit-now": "0.3.0",
+    "gatsby-remark-autolink-headers": "2.2.1",
+    "gatsby-remark-smartypants": "2.2.1",
+    "gatsby-source-filesystem": "2.2.2",
+    "prism-react-renderer": "1.0.2",
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
+    "react-github-btn": "1.1.1",
+    "react-helmet": "6.0.0",
+    "react-highlight-words": "0.16.0",
+    "react-live": "2.2.2",
+    "react-seo-component": "2.0.0",
+    "styled-components": "5.1.0",
+    "victormono": "1.3.1"
+  },
+  "devDependencies": {
+    "husky": "4.2.5",
+    "prettier": "2.0.4",
+    "pretty-quick": "2.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/spences10/cheat-sheets.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/spences10/cheat-sheets/issues"
+  },
+  "homepage": "https://github.com/spences10/cheat-sheets#readme"
+}
